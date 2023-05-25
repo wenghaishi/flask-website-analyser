@@ -15,3 +15,4 @@ images are being fetched.
 Iframe sources
 Anchor tag references (a hrefs)
 	
+https://web-analyser-flask.herokuapp.com/
