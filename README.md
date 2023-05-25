@@ -1,5 +1,5 @@
 # flask-website-analyser
-Develop a Python-Flask-based application to conduct basic analysis on any given website. The application will accept a website URL as input and return the following information: 
+Python-Flask-based application to conduct basic analysis on any given website. The application will accept a website URL as input and return the following information: 
 
 Domain Information
 Server IP
@@ -16,9 +16,6 @@ Iframe sources
 Anchor tag references (a hrefs)
 	
 
-Input: The URL of the website will be passed in the parameter, i.e.: 
-
-http://<flask-endpoint>/?url=https://www.pentesteracademy.com 
 
 Output Format:
 
