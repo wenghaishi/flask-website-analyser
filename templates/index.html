@@ -23,14 +23,10 @@
     </nav>
     <div class="d-flex flex-column justify-content-center align-items-center">
       <h2 class="text-center mt-5 mb-5">Enter website url below</h2>
-      <form class="d-flex flex-column justify-content-center align-items-center w-50">
-        <!-- Email input -->
-        <div class="form-outline mb-5 w-100">
-          <input type="url" id="form1Example1" class="form-control" />
-        </div>
-        <!-- Submit button -->
-        <button type="submit" class="btn btn-primary btn-block w-50">Analyse</button>
-      </form>
+      <form action="/result" method="post">
+        <input type="text" name="input" placeholder="Enter your input">
+        <input type="submit" value="Submit">
+    </form>
     </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -48,3 +44,4 @@
     -->
   </body>
 </html>
+
