@@ -4,37 +4,35 @@
 
 
 Flask-based application to conduct basic analysis on any given website. The application will accept a website URL as input and return the following information: 
-
-Domain Information
-<br></br>
-Server IP
-<br></br>
-Location (Country)
-<br></br>
-ASN
-<br></br>
-ISP
-<br></br>
-Organization
-<br></br>
-Subdomain Information
-<br></br>
-List of external domains from which 
+```
+- Domain Information
+- Server IP
+- Location (Country)
+- ASN
+- ISP
+- Organization
+- Subdomain Information
+- List of external domains from which 
 Style sheets are being fetched
 Javascripts are being fetched.
+- images are being fetched.
+- Iframe sources
+- Anchor tag references (a hrefs)
+```
+
+cd into app directory and run ```python3 app.py``` 
 <br></br>
-images are being fetched.
-<br></br>
-Iframe sources
-<br></br>
-Anchor tag references (a hrefs)
-<br></br>
+
 example
-**http://app-endpoint/?url=https://www.pentesteracademy.com**
+**(http://flask-endpoint/?url=https://www.pentesteracademy.com )**
+
+Replace https://www.pentesteracademy.com with your desired url
 <br></br>
 <br></br>
 WebSocket endpoint at "/ws". JSON data will be utilized for communication between the WebSocket and the client. Once the WebSocket connection is established, the first message should contain a "url" attribute. Subsequent messages will include an "operation" attribute, indicating the desired action to perform, such as "get_info", "get_subdomains", or "get_asset_domains". Below are sample messages:
 
+ run python3 app.py (server) & python3 client.py (client)
+ 
 ```javascript
 
 Input: {"url":"www.pentesteracademy.com"}
