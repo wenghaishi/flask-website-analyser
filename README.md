@@ -21,6 +21,7 @@ Input: {"url":"www.pentesteracademy.com"}
 Output: {"data":"session created for www.pentesteracademy.com"}
 
 Input: {"operation":"get_info"}
+
 Output:
 {"data": {
     "ip": "132.226.44.1",
@@ -32,6 +33,7 @@ Output:
 }
 
 Input: {"operation":"get_subdomains"}
+
 Output:
 { "data": [
     "blackhat.pentesteracademy.com",
@@ -51,6 +53,7 @@ Output:
 
 
 Input: {"operation":"get_asset_domains"}
+
 Output:
 {"data": {
     "javascripts": [],
@@ -72,5 +75,5 @@ Output:
 
 	
 	
-	
+App without websocket @
 https://web-analyser-flask.herokuapp.com/
